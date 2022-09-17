@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakshee Sarrawgi</title>
+  <link rel="icon" type="image/png" href="images\icons\favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/pointer.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous">
+  </script>
+  <script>
+    $(document).ready(function () {
+      $(".title-image").delay(400).fadeIn(1000).animate({
+        opacity: '1',
+        height: '400px',
+        width: '400px'
+      });
+    });
+  </script>
+</head>
+
+<body style="background-image: url('reso130.jpg');
+    height: 150%;
+    background-attachment: fixed;
+">
+  <section id="navbar">
+    <nav class="navbar fixed-bottom navbar-expand-sm ">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item mr-auto">
+          <a class="nav-link" href="blog.html"><img src="images\icons\blog.png" /></a>
+        </li>
+      </ul>
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item mx-auto">
+          <a class="nav-link" href="myWork.html"><img src="images\icons\work.png" /></a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ml-auto">
+          <a class="nav-link" href="contactMe.html"><img src="images\icons\contact.png" /></a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+
+  <section id="title">
+    <div>
+      <!-- <div id="#logo">
+        <img src="images\shee-shades.png" alt="" width="170">
+      </div> -->
+      <div class="row">
+
+        <div class="col-lg-6 about-me" style="margin-top:75px;">
+          <h1 class="big-heading h1-font">Hi there, I'm Sakshee .</h1>
+          <h2>I'm a
+            <span class="txt-rotate" data-period="1000"
+              data-rotate='[ "Editor.", "Writer.", "Marketing Strategist.", "Feminist." ]'></span>
+          </h2>
+          <p id="p-font">our thoughts, have to be molded into the best phrases, and with this site I do what I've always
+            wanted to.</p>
+        </div>
+        <div class="column col-xs-6" id="zoomIn">
+          <figure><img src="images\profile-picture.png" class="title-image"></figure>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</body>
+<script src="js/pointer.js"></script>
+<script src="js/animate.js"></script>
+<script>
+  init_pointer({
+
+  })
+</script>
+<script src="js\app.js" charset="utf-8"></script>
+
+</html>

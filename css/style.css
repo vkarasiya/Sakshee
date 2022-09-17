@@ -1,0 +1,244 @@
+html {}
+
+body {}
+
+#title {
+    padding: 7% 15%;
+}
+
+.about-me {
+    top-margin: 100px;
+}
+
+.title-image {
+    opacity: 0.5;
+    width: 0;
+    height: 0;
+}
+
+/* #logo{
+position:fixed;
+float: left;
+top:0;
+left:0;
+} */
+
+
+#navbar {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar .nav-link:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.big-heading {
+    padding: 4rem 0 0;
+}
+
+.h1-font {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.column#zoomIn img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+figure {
+    padding-left: 3rem;
+}
+
+/* .jumbotron {
+    background-image: url(bg.jpg);
+} */
+
+
+
+
+.column#zoomIn:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.txt-rotate {
+    font-family: "Merriweather";
+}
+
+#p-font {
+    font-family: "Merriweather";
+    font-size: 15px;
+}
+
+.icons {
+    padding: 1rem;
+}
+
+.icon-right {
+    position: relative;
+    left: 6rem;
+}
+
+.icon-left {
+    position: relative;
+    right: 6rem;
+}
+
+#contact-details {}
+
+.contact {
+    margin-top: 100px;
+}
+
+.container-fluid {
+    padding: 2% 15%;
+}
+
+p {
+    display: inline-block;
+}
+
+#trial {
+    position: relative;
+    bottom: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    visibility: hidden;
+}
+
+#trials {
+    position: relative;
+    bottom: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    visibility: hidden;
+}
+
+.insta-handle {
+    position: relative;
+    bottom: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    visibility: hidden;
+}
+
+
+/* blog */
+#blog {
+    padding: 1rem;
+}
+
+#author-img {
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 1rem;
+
+}
+
+/* myWork */
+.heading-mywork {
+    background-color: rgba(241, 248, 255, 0.5);
+    text-align: center;
+    padding: 2rem 2rem;
+    font-family: 'Courgette',
+        cursive;
+}
+
+.jumbotron {
+    background-color: rgba(232, 236, 239, 0.4);
+    padding: 2rem !important;
+    margin-bottom: 2rem;
+}
+
+a {
+    color: orangered;
+    font-weight: 400;
+}
+
+a:hover {
+    color: black;
+}
+
+//contact
+
+.cons:hover{
+  transform: scale(1.5);
+}
+
+.ions-upper{
+  margin-top: 3rem;
+}
+
+.ions-lower{
+  margin-top: 1.5rem;
+}
+
+.tel{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tel:hover{
+  transform: scale(1.5);
+}
+
+.mail{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mail:hover{
+  transform: scale(1.5);
+}
+
+.med{
+  margin-left: 60px;
+}
+
+.med:hover{
+  transform: scale(1.5);
+}
+
+.insta{
+  margin-left: 125px;
+}
+
+.insta:hover{
+  transform: scale(1.5);
+}
+
+@media (max-width: 768px) {
+    .phone {
+        text-align: center;
+    }
+}
+
+
+.testing {
+    background-color: rgba(248, 249, 251, 0.5) !important;
+}
+
+.testing-mediate {
+    background-color: rgba(248, 249, 251, 0.2) !important;
+}
+
+.space-carousel {
+    margin-top: 1.5rem;
+}
+
+.blog-header {
+    font-family: 'Courgette', cursive;
+}
